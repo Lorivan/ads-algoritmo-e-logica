@@ -3,10 +3,10 @@ int main() {
     float num1, num2, resultado;
     char operador;
 
-    printf("Insira o operador: (  *, + , - , / , ) :  ");
+    printf("Insira o operador: (  *, + , - , / , ) :  " );
     scanf("%c", &operador);
 
-    printf("Digite o primeiro numero: ");
+    printf("Digite o primeiro numero: " );
     scanf("%f", &num1);
     printf("Digite o segundo numero: ");
     scanf("%f", &num2);
