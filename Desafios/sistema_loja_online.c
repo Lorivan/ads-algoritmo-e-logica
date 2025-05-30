@@ -10,11 +10,11 @@ scanf("%f", &valorCompra);
 printf("Digite o tipo de pagamento (1 - A vista | 2 - Parcelado):  " );
 scanf("%d", &tipoPagamento);
 
-if(valorCompra > 500.0 && tipoPagamento == 1 ){
+if(valorCompra > 500.0 && tipoPagamento == 1){
  desconto= valorCompra * 0.10; // 10% por cento
  }  else if(valorCompra > 500 && tipoPagamento == 2){
   desconto = valorCompra * 0.05; // 5% por cento
-} else if(valorCompra <= 500.0 && tipoPagamento == 1 ){
+} else if(valorCompra <= 500.0 && tipoPagamento == 1){
  desconto = valorCompra * 0.05; // 5% por cento
  } else if (valorCompra <= 500 && tipoPagamento == 2){
   desconto = valorCompra * 0.02; // 2% por cento
