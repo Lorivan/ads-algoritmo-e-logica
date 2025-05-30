@@ -15,9 +15,9 @@ if(valorCompra > 500.0 && tipoPagamento == 1 ){
  }  else if(valorCompra > 500 && tipoPagamento == 2){
   desconto = valorCompra * 0.05; // 5% por cento
 } else if(valorCompra <= 500.0 && tipoPagamento == 1 ){
- desconto = valorCompra * 0.05; // 10% por cento
+ desconto = valorCompra * 0.05; // 5% por cento
  } else if (valorCompra <= 500 && tipoPagamento == 2){
-  desconto = valorCompra * 0.02; // 5% por cento
+  desconto = valorCompra * 0.02; // 2% por cento
 }
 valorFinal = valorCompra - desconto ;
 
