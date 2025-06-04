@@ -1,29 +1,29 @@
 // Desafio unidade tematica 01
 
-#include <stdio.h>    // Biblioteca para funÁıes de entrada e saÌda (ex: printf, scanf)
+#include <stdio.h>    // Biblioteca para fun√ß√µes de entrada e sa√≠da (ex: printf, scanf)
 
-// FunÁ„o principal
+// Fun√ß√£o principal
 int main() {
     // -----------------------------
-    // DECLARA«√O DAS VARI¡VEIS
+    // DECLARA√á√ÉO DAS VARI√ÅVEIS
     // -----------------------------
-    char nomeProduto[100]; // Vari·vel para armazenar o nome do produto
+    char nomeProduto[100]; // Vari√°vel para armazenar o nome do produto
     float valorAtual; // Valor atual do produto (sem desconto)
-    float percentualDesconto; // Percentual de desconto informado pelo usu·rio
+    float percentualDesconto; // Percentual de desconto informado pelo usu√°rio
     float desconto; // Valor calculado do desconto em reais
-    float valorFinal; // Valor final do produto apÛs aplicar o desconto
+    float valorFinal; // Valor final do produto ap√≥s aplicar o desconto
 
     // -----------------------------
     // ENTRADA DE DADOS
     // -----------------------------
     printf("Digite o nome do produto: ");
-    scanf("%s", &nomeProduto); // LÍ o nome do produto (atenÁ„o: lÍ apenas atÈ o primeiro espaÁo)
+    scanf("%s", &nomeProduto); // L√™ o nome do produto (aten√ß√£o: l√™ apenas at√© o primeiro espa√ßo)
 
     printf("Digite o valor do produto R$: ");
-    scanf("%f", &valorAtual); // LÍ o valor atual do produto
+    scanf("%f", &valorAtual); // L√™ o valor atual do produto
 
     printf("Digite o percentual de desconto : ");
-    scanf("%f", &percentualDesconto); // LÍ o percentual de desconto a ser aplicado
+    scanf("%f", &percentualDesconto); // L√™ o percentual de desconto a ser aplicado
 
     // -----------------------------
     // PROCESSAMENTO
@@ -32,7 +32,7 @@ int main() {
     valorFinal = valorAtual - desconto; // Calcula o valor final do produto com desconto
     printf("\n");
     // -----------------------------
-    // SAÕDA DE DADOS
+    // SA√çDA DE DADOS
     // -----------------------------
     printf("Nome do produto, %s\n", nomeProduto); // Exibe o nome do produto
     printf("Valor atual do produto R$ %.2f\n", valorAtual); // Exibe o valor atual do produto
